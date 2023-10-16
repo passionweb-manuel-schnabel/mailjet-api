@@ -1,0 +1,42 @@
+<f:layout name="Default"/>
+
+<f:section name="content">
+    <f:asset.script identifier="form-security-check-js" src="EXT:mailjet_api/Resources/Public/JavaScript/form-security-check.js" />
+
+    <f:form action="subscribe" name="form" id="mailjetSubscription" class="form-horizontal">
+        <div class="row form-group">
+            <f:for each="{formProperties}" as="formProperty" key="formName" iteration="it">
+                <f:if condition="{it.isLast} == TRUE && {it.isOdd} == TRUE">
+                    <f:then>
+                        <div class="col-12">
+                            <f:form.textfield name="subscription[{formName}]" placeholder="{formProperty.placeholder}" type="{formProperty.type" class="form-control" required="{formProperty.required}" />
+                        </div>
+                    </f:then>
+                    <f:else>
+                        <div class="col-12 col-md-6 mb-3">
+                            <f:form.textfield name="subscription[{formName}]" placeholder="{formProperty.placeholder}" type="{formProperty.type" class="form-control" required="{formProperty.required}" />
+                        </div>
+                    </f:else>
+                </f:if>
+            </f:for>
+        </div>
+        <div class="row form-group">
+            <div class="col-12">
+                <f:form.textfield name="submit" value="{f:translate(id: 'tx_mailjetapi.form.submit')}" type="submit" class="form-control"/>
+            </div>
+        </div>
+        <f:form.hidden
+            id="secureCheck"
+            class="security-check-input"
+            name="subscription[security-check]"
+            value=""
+        />
+    </f:form>
+    <f:if condition="{noValidFormMessage}">
+        <p>
+            <small class="text-danger">
+                <f:translate id="tx_mailjetapi.no_valid_form_message" />
+            </small>
+        </p>
+    </f:if>
+</f:section>

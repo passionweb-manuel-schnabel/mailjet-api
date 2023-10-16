@@ -1,0 +1,36 @@
+{
+  "name": "passionweb/mailjet-api",
+  "type": "typo3-cms-extension",
+  "version": "1.0.0",
+  "description": "Mailjet API integration so users can subscribe to your newsletter(s) and be added to your Mailjet mailing list(s)",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "mailjet"
+  ],
+  "homepage": "https://www.passionweb.de",
+  "authors": [
+    {
+      "name": "Manuel Schnabel",
+      "role": "Developer"
+    }
+  ],
+  "license": [
+    "GPL-2.0+"
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "typo3/cms-core": "^11.5 | ^12.4",
+    "mailjet/mailjet-apiv3-php": "~1.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Passionweb\\MailjetApi\\": "Classes"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "mailjet_api"
+    }
+  }
+}

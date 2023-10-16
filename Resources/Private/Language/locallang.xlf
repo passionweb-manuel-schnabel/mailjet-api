@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:mailjet_api/Resources/Private/Language/locallang.xlf" date="2022-10-12T13:12:24Z" product-name="mailjet_api">
+		<header/>
+		<body>
+		    <trans-unit id="tx_mailjetapi.no_valid_form_message" resname="tx_mailjetapi.no_valid_form_message">
+                <source>Sorry, the security check identified you as a robot. To pass the security check, you must perform more actions on this page that are typical for a human visitor. And JavaScript must be enabled.</source>
+            </trans-unit>
+            <trans-unit id="tx_mailjetapi.form.submit" resname="tx_mailjetapi.form.submit">
+                <source>Subscribe now</source>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>
