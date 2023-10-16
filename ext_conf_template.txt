@@ -1,0 +1,6 @@
+# cat=Mailjet settings; type=string; label=Mailjet API key;
+mailjetApiKey=
+# cat=Mailjet settings; type=string; label=Mailjet secret key;
+mailjetSecretKey=
+# cat=Mailjet settings; type=string;  label=Mailjet API version
+mailjetApiVersion = v3
