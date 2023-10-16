@@ -39,16 +39,17 @@ Detailed documentation is available at the following link:
         _arguments: {}
 
 
-### Frontend configuration "enforceValidation" (TYPO3 v12)
+### Frontend configuration "enforceValidation" and "excludedParameters" (TYPO3 v12)
 
-If this setting is active you need to add the `contact_id` parameter to the `excludedParameters`.
+You need to add the `contact_id` parameter to the `excludedParameters` if you don't use the `limitToPages` option of the RouteEnhancer and if it should be possible to call the same page (where your mailjet verification plugin is included) with the contact_id as an argument an without the contact_id.
 
-    'cacheHash' => [
+
+    $GLOBALS['TYPO3_CONF_VARS']['FE']['cacheHash'] = [
         'enforceValidation' => true,
         'excludedParameters' => [
             'contact_id',
         ],
-    ],
+    ];
 
 
 ### Extension configuration
