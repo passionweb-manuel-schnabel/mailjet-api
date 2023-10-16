@@ -16,7 +16,7 @@ return [
             'endtime' => 'endtime',
         ],
         'searchFields' => 'status,tablenames,fieldname,sys_file_uid',
-        'iconfile' => 'EXT:mailjet_api/Resources/Public/Icons/tx_mailjetapi_domain_model_property.gif'
+        'iconfile' => 'EXT:mailjet_api/Resources/Public/Icons/Extension.png'
     ],
     'types' => [
         '1' => ['showitem' => 'form_property_name, mailjet_property_name, form_property_type, form_property_placeholder, form_property_required, use_for_mailjet_name, use_for_mailjet_email, --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access, hidden,'],

@@ -17,7 +17,7 @@ return [
             'endtime' => 'endtime',
         ],
         'searchFields' => 'contact_id,email,receiver_name',
-        'iconfile' => 'EXT:mailjet_api/Resources/Public/Icons/tx_mailjetapi_domain_model_subscription.gif'
+        'iconfile' => 'EXT:mailjet_api/Resources/Public/Icons/Extension.png'
     ],
     'types' => [
         '1' => ['showitem' => 'contact_id,email,receiver_name, --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access, hidden,'],
