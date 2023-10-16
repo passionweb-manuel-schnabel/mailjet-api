@@ -4,7 +4,7 @@ defined('TYPO3') or die();
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
     'MailjetApi',
     'Subscription',
-    'Mailjet Subscription'
+    'LLL:EXT:mailjet_api/Resources/Private/Language/locallang_db.xlf:plugin_mailjet_api_subscription.name'
 );
 
 $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist']['mailjetapi_subscription'] = 'pi_flexform';
@@ -16,7 +16,7 @@ $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist']['mailjetapi_s
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
     'MailjetApi',
     'VerifySubscription',
-    'Mailjet Verify Subscription'
+    'LLL:EXT:mailjet_api/Resources/Private/Language/locallang_db.xlf:plugin_mailjet_api_verifysubscription.name'
 );
 
 $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist']['mailjetapi_verifysubscription'] = 'pi_flexform';

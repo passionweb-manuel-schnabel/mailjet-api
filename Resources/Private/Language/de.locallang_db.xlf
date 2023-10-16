@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="EXT:mailjet_api/Resources/Private/Language/locallang_db.xlf" date="2022-10-12T13:12:24Z" product-name="mailjet_api">
+		<header/>
+		<body>
+		    <!-- PLUGINS -->
+		    <trans-unit id="plugin_mailjet_api_subscription.name" resname="plugin_mailjet_api_subscription.name">
+                <source>Mailjet Subscription form</source>
+                <target>Mailjet-Abonnementformular</target>
+            </trans-unit>
+            <trans-unit id="plugin_mailjet_api_subscription.description" resname="plugin_mailjet_api_subscription.description">
+                <source>Configure and add your subscription form</source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="plugin_mailjet_api_verifysubscription.name" resname="plugin_mailjet_api_verifysubscription.name">
+                <source>Mailjet verify subscription</source>
+                <target>Mailjet-Abonnement verifizieren</target>
+            </trans-unit>
+            <trans-unit id="plugin_mailjet_api_verifysubscription.description" resname="plugin_mailjet_api_verifysubscription.description">
+                <source>Handles the verification process</source>
+                <target></target>
+            </trans-unit>
+		    <!-- PROPERTY MODEL -->
+            <trans-unit id="tx_mailjetapi_domain_model_property" resname="tx_mailjetapi_domain_model_property">
+                <source>Property</source>
+                <target>Eigenschaft / Feld</target>
+            </trans-unit>
+            <trans-unit id="tx_mailjetapi_domain_model_property.form_property_name" resname="tx_mailjetapi_domain_model_property.form_property_name">
+                <source>Form property name</source>
+                <target>Name des Formular-Felds</target>
+            </trans-unit>
+            <trans-unit id="tx_mailjetapi_domain_model_property.form_property_type" resname="tx_mailjetapi_domain_model_property.form_property_type">
+                <source>Form property type</source>
+                <target>Typ des Formular-Felds</target>
+            </trans-unit>
+            <trans-unit id="tx_mailjetapi_domain_model_property.mailjet_property_name" resname="tx_mailjetapi_domain_model_property.mailjet_property_name">
+                <source>Mailjet property name</source>
+                <target>Name des Mailjet-Felds</target>
+            </trans-unit>
+            <trans-unit id="tx_mailjetapi_domain_model_property.form_property_placeholder" resname="tx_mailjetapi_domain_model_property.form_property_placeholder">
+                <source>Form property placeholder</source>
+                <target>Platzhalter des Form-Felds</target>
+            </trans-unit>
+            <trans-unit id="tx_mailjetapi_domain_model_property.form_property_required" resname="tx_mailjetapi_domain_model_property.form_property_required">
+                <source>Form property required</source>
+                <target>Ausfüllen des Form-Felds erforderlich</target>
+            </trans-unit>
+            <trans-unit id="tx_mailjetapi_domain_model_property.use_for_mailjet_email" resname="tx_mailjetapi_domain_model_property.use_for_mailjet_email">
+                <source>Use for Mailjet email</source>
+                <target>Für Mailjet-E-Mail verwenden</target>
+            </trans-unit>
+            <trans-unit id="tx_mailjetapi_domain_model_property.use_for_mailjet_name" resname="tx_mailjetapi_domain_model_property.use_for_mailjet_name">
+                <source>Use for Mailjet name</source>
+                <target>Für Mailjet-Name verwenden</target>
+            </trans-unit>
+		    <!-- SUBSCRIPTION MODEL -->
+		    <trans-unit id="tx_mailjetapi_domain_model_subscription" resname="tx_mailjetapi_domain_model_subscription">
+                <source>Subscription</source>
+                <target>Abonnement</target>
+            </trans-unit>
+			<trans-unit id="tx_mailjetapi_domain_model_subscription.contact_id" resname="tx_mailjetapi_domain_model_subscription.contact_id">
+				<source>Mailjet contact ID</source>
+				<target>Mailjet Kontakt-ID</target>
+			</trans-unit>
+            <trans-unit id="tx_mailjetapi_domain_model_subscription.email" resname="tx_mailjetapi_domain_model_subscription.email">
+                <source>Email address</source>
+                <target>E-Mail-Adresse</target>
+            </trans-unit>
+            <trans-unit id="tx_mailjetapi_domain_model_subscription.receiver_name" resname="tx_mailjetapi_domain_model_subscription.receiver_name">
+                <source>Mail receiver name</source>
+                <target>Name des E-Mail-Empfängers</target>
+            </trans-unit>
+            <!-- FLEXFORM SUBSCRIBE -->
+            <trans-unit id="flexform_subscription.sheetTitle" resname="flexform_subscription.sheetTitle">
+                <source>Mailjet subscription configuration</source>
+                <target>Konfiguration des Mailjet-Abonnements</target>
+            </trans-unit>
+            <trans-unit id="flexform_subscription.storagePid" resname="flexform_subscription.storagePid">
+                <source>Storage Pid</source>
+                <target>Storage-Pid</target>
+            </trans-unit>
+            <trans-unit id="flexform_subscription.redirectPid" resname="flexform_subscription.redirectPid">
+                <source>Redirect to this page after form submit</source>
+                <target>Nach dem Absenden des Formulars auf diese Seite weiterleiten</target>
+            </trans-unit>
+            <trans-unit id="flexform_subscription.properties" resname="flexform_subscription.properties">
+                <source>Form fields/properties</source>
+                <target>Formularfelder/Eigenschaften</target>
+            </trans-unit>
+            <trans-unit id="flexform_subscription.property_mail" resname="flexform_subscription.property_mail">
+                <source>Form field for the email address</source>
+                <target>Formularfeld für die E-Mail-Adresse</target>
+            </trans-unit>
+            <trans-unit id="flexform_subscription.properties_receiver" resname="flexform_subscription.properties_receiver">
+                <source>Form field(s) for the email receiver name</source>
+                <target>Formularfeld(er) für den Namen des E-Mail-Empfängers</target>
+            </trans-unit>
+            <trans-unit id="flexform_subscription.mailjetListID" resname="flexform_subscription.mailjetListID">
+                <source>Mailjet ListID</source>
+                <target>Mailjet ListID</target>
+            </trans-unit>
+            <trans-unit id="flexform_subscription.subscribeFromEmail" resname="flexform_subscription.subscribeFromEmail">
+                <source>From email for subscription email</source>
+                <target>Absender-E-Mail für Abonnement-E-Mail</target>
+            </trans-unit>
+            <trans-unit id="flexform_subscription.subscribeFromName" resname="flexform_subscription.subscribeFromName">
+                <source>From name for subscription email</source>
+                <target>Absender-Name für Abonnement-E-Mail</target>
+            </trans-unit>
+            <trans-unit id="flexform_subscription.subscribeSubject" resname="flexform_subscription.subscribeSubject">
+                <source>Subject for subscription email</source>
+                <target>Betreff für die Abonnement-E-Mail</target>
+            </trans-unit>
+            <trans-unit id="flexform_subscription.subscribeMJTemplateID" resname="flexform_subscription.subscribeMJTemplateID">
+                <source>Mailjet Template ID for subscription email</source>
+                <target>Mailjet-Vorlagen-ID für Abonnement-E-Mail</target>
+            </trans-unit>
+            <!-- FLEXFORM VERIFY -->
+            <trans-unit id="flexform_verify.sheetTitle" resname="flexform_verify.sheetTitle">
+                <source>Mailjet verification configuration</source>
+                <target>Konfiguration der Mailjet-Verifizierung</target>
+            </trans-unit>
+            <trans-unit id="flexform_verify.mailjetListID" resname="flexform_verify.mailjetListID">
+                <source>Mailjet ListID</source>
+                <target>Mailjet ListID</target>
+            </trans-unit>
+            <trans-unit id="flexform_verify.subscribeSuccessFromEmail" resname="flexform_verify.subscribeSuccessFromEmail">
+                <source>From email for verification email</source>
+                <target>Absender-E-Mail für Bestätigungs-E-Mail</target>
+            </trans-unit>
+            <trans-unit id="flexform_verify.subscribeSuccessFromName" resname="flexform_verify.subscribeSuccessFromName">
+                <source>From name for verification email</source>
+                <target>Absender-Name für Bestätigungs-E-Mail</target>
+            </trans-unit>
+            <trans-unit id="flexform_verify.subscribeSuccessSubject" resname="flexform_verify.subscribeSuccessSubject">
+                <source>Subject for verification email</source>
+                <target>Betreff für Bestätigungs-E-Mail</target>
+            </trans-unit>
+            <trans-unit id="flexform_verify.subscribeSuccessMJTemplateID" resname="flexform_verify.subscribeSuccessMJTemplateID">
+                <source>Mailjet Template ID for verification email</source>
+                <target>Mailjet-Vorlagen-ID für die Bestätigungs-E-Mail</target>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>
