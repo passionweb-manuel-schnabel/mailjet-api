@@ -29,7 +29,7 @@ Detailed documentation is available at the following link:
 
 - Add the following RouteEnhancer to the section `routeEnhancers` in your site configuration (`config.yaml`):
 
-
+```yaml
     MailjetDoubleOptIn:
         type: Simple
         limitToPages: [ YOUR_PID ]
@@ -37,7 +37,7 @@ Detailed documentation is available at the following link:
         requirements:
             contact_id: '[0-9]{1,10}'
         _arguments: {}
-
+```
 
 ### Frontend configuration "enforceValidation" and "excludedParameters" (TYPO3 v12)
 
