@@ -12,7 +12,6 @@ $EM_CONF[$_EXTKEY] = [
     'depends' => [
         'php' => '>=7.4.0',
         'typo3' => '11.5.0-12.4.99',
-        'mailjet/mailjet-apiv3-php' => '~1.6'
     ],
     'conflicts' => [],
     'suggests' => [],

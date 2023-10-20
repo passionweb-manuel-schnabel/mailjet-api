@@ -16,7 +16,7 @@ Add your required properties
 
 The properties are used to define the fields for the subscription form and the associated mapping to the Mailjet fields. The following fields are available:
 
-1. Form property name: The name of the property in the subcription form
+1. Form property name: The name of the property in the subscription form
 2. Mailjet property name: The name of the (contact) property in Mailjet
 3. Form property type: Select the type of the field in the subscription form (possible values: text, email, tel, number, url)
 4. Form field placeholder: The placeholder text for the field in the subscription form
@@ -52,7 +52,7 @@ Add and configure plugin "Mail subscription form"
 Add and configure plugin "Mail verify subscription"
 ---------------------------------------------------
 
-1. Add the plugin "Mailjet verify subscription" to your selected page (should be different than the page with the subscription form)
+1. Add the plugin "Mailjet verify subscription" to your selected page (should be different from the page with the subscription form)
 2. Configure the plugin settings:
 
    - Mailjet ListID: Enter the ID of the Mailjet list you want to use for the verification (must be the same as in the plugin "Mail subscription form")

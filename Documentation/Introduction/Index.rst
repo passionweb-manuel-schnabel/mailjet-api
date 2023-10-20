@@ -13,7 +13,7 @@ What does it do?
 
 This extension uses the Mailjet API so users can subscribe to your newsletter(s) and be added to your Mailjet mailing list(s). It comes with two plugins. One with the mailjet subscription form and one with the mailjet verification form.
 
-You can customize the subscription form to your individual (Mailjet) needs. You can choose which fields should be displayed and how they are mapped to the corresponding contact fields in Mailjet, which field(s) should be use for the receiver name and which field should be use for the email.
+You can customize the subscription form to your individual (Mailjet) needs. You can choose which fields should be displayed and how they are mapped to the corresponding contact fields in Mailjet, which field(s) should be used for the receiver name and which field should be used for the email.
 
 .. _requirements:
 
